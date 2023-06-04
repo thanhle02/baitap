@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="bai.css">
+</head>
+
+<body>
+    <div class="header">
+        <div id="nav">
+            <ul>
+                <li><a href="#"> Trang chủ</a></li>
+                <li><a href="#"> liên hệ </a></li>
+                <li><a href="#"> hỗ trợ </a></li>
+                <li><a href="#">về chúng tôi </a></li>
+
+            </ul>
+        </div>
+        <div class="menu">
+            <a href="javascript:void(0)" class="icon" onclick="myfuction()"></a> 
+            <i class="icon" class="fa-solid fa-bars"></i>
+            <a href="#">LOGO</a>
+        </div>
+    </div>
+    <div class="background-image"></div>
+    <h1> sản phẩm</h1>
+    <div class="box">
+        <img src="images/item.png" alt="">
+        <img src="images/item.png" alt="">
+        <img src="images/item.png" alt="">
+    </div>
+    <div class="box2">
+        <div class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, provident similique
+            facilis soluta itaque quia voluptates cupiditate mollitia fuga vel nobis voluptatem expedita aliquid?
+            Repellendus, laborum! Aut tenetur expedita fuga!</div>
+
+
+        <div class="title2"><button>Let’s start</button></div>
+    </div>
+    <h1> về dối tác</h1>
+    <div class="dt">
+        <button> đối tác 1</button>
+        <button> đối tác 2</button>
+        <button> đối tác 3</button>
+        <button> đối tác 4</button>
+    </div>
+    <footer>
+        <h2>footer</h2>
+    </footer>
+    <script>
+        function myfuction() {
+            var x = document.getElementById("nav");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block"
+            }
+        }
+    </script>
+</body>
+
+</html>

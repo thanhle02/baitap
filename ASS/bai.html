@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bai.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <nav class="nav">
+            <ul>
+                <li><a href="trangchu.html"> TRANG CHỦ </a></li>
+                <li><a href="sanpham.html">SẢN PHẨM </a></li>
+                <li><a href="lienhe.html"> LIÊN HỆ </a></li>
+            </ul>
+        </nav>
+        <div class="tt"> Lê Thị Thanh - PH29388 </div>
+    </div>
+    <div class="center">
+       
+        <div class="anh">
+            <img class="active" src="IMG/ảnh hiệu ứng 1.jpeg" alt="">
+            <img src="IMG/ảnh hiệu ứng 2.jpeg" alt="">
+            <img src="IMG/ảnh hiệu ứng 3.jpeg" alt="">
+            <img src="IMG/đồng hồ thông minh.jpg" alt="">
+            <img src="IMG/đồng hồ tt2.jpg" alt="">
+        </div>
+    </div>
+
+    <section class="product">
+        <div class="container">
+            <div class="product-items">
+                <div class="product-item" onmouseover="hien()" onmouseout="an()">
+                    <h1 > đồng hồ nữ </h1>
+                    <img src="IMG/đồng hồ nữ 3.jpg" alt="">
+
+                    <img class="icon" src="IMG/icon.jpg" alt="">
+                    <div class="product-item-text">
+                        <p><span> 500.000</span> <sup>đ</sup></p>
+                    </div>
+                    <button> thêm vào giỏ hàng </button>
+                </div>
+                <div class="product-item" onmouseover="can()" onmouseout="khong()">
+                    <h1> đồng hồ nam </h1>
+
+                    <img src="IMG/đồng hồ tt2.jpg" alt="">
+                    <img class="cute" src="IMG/icon.jpg" alt="">
+                    <div class="product-item-text">
+                        <p><span> 100.000</span> <sup>đ</sup></p>
+                    </div>
+                    <button> thêm vào giỏ hàng </button>
+                </div>
+                <div class="product-item" onmouseover="hd()" onmouseout="hay()">
+                    <h1> đồng hồ thông minh </h1>
+
+                    <img src="IMG/đồng hồ thông minh.jpg" alt="">
+                    <img class="haha" src="IMG/icon.jpg" alt="">
+                    <div class="product-item-text">
+                        <p><span> 425.000</span> <sup>đ</sup></p>
+                    </div>
+                    <button> thêm vào giỏ hàng </button>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="cart">
+        <h2>cart</h2>
+        <form action="">
+            <table>
+                <thead>
+                    <tr>
+                        <th>sản phẩm </th>
+                        <th>giá</th>
+                        <th> SL</th>
+                        <th> chọn</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- <tr>
+                    <td style="display:flex; text-align:center"><img style="width:70px" src="IMG/đồng hồ nữ 3.jpg"
+                            alt=""> đồng hồ nữ </td>
+                    <td>
+                        <p><span>320.000</span> <sup>đ</sup></p>
+                    </td>
+                    <td><input style=" width:30px; outline: none;" type="number" value="1" min="1"></td>
+                    <td><button>xoa </button> </td>
+
+                </tr> -->
+                    <!-- <tr>
+                    <td style="3:flex; text-align:center"><img style="width:70px"
+                            src="IMG/đồng hồ thông minh.jpg" alt=""> đồng hồ nữ </td>
+                    <td>
+                        <p><span>320.000</span> <sup>đ</sup></p>
+                    </td>
+                    <td><input style=" width:30px; outline: none;" type="number" value="1" min="1"></td>
+                    <td><button>xoa </button> </td>
+
+                </tr> -->
+                    <!-- <tr>
+                    <td style="display:flex; text-align:center"><img style="width:70px" src="IMG/đồng hồ tt2.jpg"
+                            alt=""> đồng hồ nữ </td>
+                    <td>
+                        <p><span>320.000</span> <sup>đ</sup></p>
+                    </td>
+                    <td><input style=" width:30px; outline: none;" type="number" value="1" min="1"></td>
+                    <td><button>xoa </button> </td>
+
+                </tr> -->
+                </tbody>
+            </table>
+            <div style="text-align:center" class="price-total">
+
+                <p style="font-weight:bold; margin: 50px; font-size: 35px;color:brown;"> tổng tiền <span>0</span> <sup>đ</sup></p>
+
+            </div>
+        </form>
+
+    </section>
+    
+    <div class="footer"> ASSIGNMENT GIAI ĐOẠN HOÀN THIỆN </div>
+    </div>
+    <script src="bai.js"></script>
+</body>
+
+</html>

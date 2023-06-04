@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+
+.header {
+    width: 100%;
+
+    background: url(../ASS/IMG/z3569038063492_f884bc023602c7ed728723895ce259e2.jpg) top center / cover no-repeat;
+}
+
+body {
+    left: 0;
+    right: 0;
+}
+.anh {
+    position: relative;
+    width: 100%;
+    height: 400px;
+
+}
+
+.anh img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+img.active {
+    opacity: 1;
+}
+
+
+.tt {
+    text-align: center;
+    margin-top: 40px;
+    height: 70px;
+    font-size: 32px;
+    font-weight: normal;
+    color: brown;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    border-bottom: 1px solid rgb(90, 85, 85);
+}
+
+.nav li {
+    display: inline;
+
+}
+
+.nav a {
+    display: inline-block;
+    padding: 10px;
+    color: brown;
+    text-decoration: none;
+}
+
+
+
+.nav ul li a:hover {
+    color: black;
+    background: white;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.product-items {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 33px;
+}
+
+.product-item {
+    margin-top: 50px;
+    width: 30%;
+    height: 560px;
+    background-color: rgb(228, 224, 224);
+    text-align: center;
+    
+
+}
+.product-item h1{
+    font-size: 40px;
+    color: red;
+    font-weight: 200;
+    
+
+}
+.product-item img {
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.product-item-text {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.product-item button {
+    margin-top: 12px;
+    height: 30px;
+    padding: 0 12px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.product-item button:hover {
+    background-color: red;
+}
+
+/* css cart */
+.cart {
+    margin-top: 50px;
+    width: 50%;
+   
+   margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.cart h2 {
+    margin-bottom: 20px;
+}
+
+.cart table {
+    width: 100%;
+
+}
+
+.cart table thead tr th:first-child {
+    text-align: center;
+}
+
+.cart table tr td {
+    border-bottom: 1px solid #ddd;
+}
+
+.cart table thead tr th:last-child {
+    text-align: center;
+}
+
+.cart table tbody tr td:last-child {
+    text-align: center;
+}
+
+
+
+.product-item .icon {
+    position: absolute;
+ margin-left: 100px;
+ margin-top: 100px;
+  
+    display: none;
+    width: 150px;
+    height: 50px;
+}
+
+.product-item  .cute {
+    position: absolute;
+    margin-left: 100px;
+ margin-top: 100px;
+    display: none;
+    width: 150px;
+    height: 50px;
+}
+
+.product-item  .haha {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 100px;
+    display: none;
+    width: 150px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .footer {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    background: rgb(163, 163, 220);
+    color: aqua
+}

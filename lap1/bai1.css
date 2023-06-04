@@ -1,0 +1,68 @@
+.container{
+    width: 980px;
+    margin: 0 auto;
+}
+nav{
+    height: 50px;
+    background: #039902;
+    display: flex;
+  justify-content:space-evenly;
+}
+a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+a h3{
+    margin: 2px ;
+}
+nav a:hover{
+    text-decoration: underline;
+    background: red;
+}
+.banner{
+    background-image: url(img/đồng\ hồ.png);
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+.content{
+    gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.left{
+    width: 470px;
+  
+}
+.left h1{
+    background: #039902;
+    color: white;
+   padding: 7px;
+}
+.right{
+    width: 470px;
+}
+.right h1{
+    background: #039902;
+    color: white;
+   padding: 7px;
+}
+.content img{
+    width: 470px;
+   
+}
+h2{
+    font-size: 25px;
+    font-weight: 800;
+}
+span{
+    font-size: 20px;
+}
+.footer{
+    height: 100px;
+    padding-bottom: 50px;
+    background:#039902;
+}
+
+

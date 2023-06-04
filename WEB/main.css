@@ -1,0 +1,124 @@
+:root {
+    --primary: #f85512;
+    --text: #20284f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: content-box;
+    list-style: none;
+}
+
+body {
+    width: 980px;
+    margin: 0 auto;
+    font-family: tahoma;
+}
+
+.banner {
+    background: var(--primary);
+    padding: 30px;
+}
+
+.banner img {
+    display: block;
+    margin: 0 auto;
+}
+
+.menu {
+    background: #febb6a;
+}
+
+.nav ul {
+    display: flex;
+}
+
+ul li {
+    margin: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form {
+    margin-right: 10px;
+}
+
+form input, form button {
+    border: 1px solid #ddd;
+    border-radius: 0;
+    padding: 5px;
+}
+
+form button {
+    background: #272f54;
+    color: white;
+}
+
+.cate {
+    margin: 10px 0;
+}
+
+.cate h3 {
+    color: var(--text);
+}
+
+.post-group {
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    column-gap: 10px;
+}
+
+.card1 {
+    display: flex;
+    border: 1px solid var(--primary);
+    padding: 10px;
+}
+
+.card1 .content {
+    padding: 10px;
+}
+
+.card1 h4, .card2 h4 {
+    color: #aa3600;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.card1 p {
+    font-size: 14px;
+}
+.card2 {
+    border: 1px solid var(--primary);
+    padding: 10px;
+}
+.card2 img {
+    display: block;
+    margin:0 auto ;
+    margin-left: 5px;
+}
+footer {
+    background-color: var(--primary);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    height: 50px;
+
+}
